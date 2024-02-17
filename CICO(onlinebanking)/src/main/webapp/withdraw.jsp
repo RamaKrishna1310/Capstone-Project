@@ -98,29 +98,7 @@ var sds = document.getElementById("dum");
 			<% 
 			}
 			
-			/*out.print("<table align='left' width='50%' border='4' bgcolor='###FFF'>");
-			out.print("<tr><th>ACCOUNT NO</th><th>USERNAME</th><th>AMOUNT</th><th>ADDRESS</th><th>PHONE</th></tr>");
-			while(rs.next()){
-			    int accountno1=rs.getInt(1);
-				session.setAttribute("accountno",accountno1);
-				
-				System.out.print(accountno);
-				
-				out.print("<tr>");
-				out.print("<td>" + rs.getInt(1) + "</td>");
-				out.print("<td>" + rs.getString(2) + "</td>");
-				out.print("<td>" + rs.getInt(5) + "</td>");
-				out.print("<td>" + rs.getString(6) + "</td>");
-				out.print("<td>" + rs.getInt(7) + "</td>");
-				//out.print("<td><a href='DeleteServlet' >Delete</a></td>");
 			
-				out.print("</tr>");
-			
-			}
-			out.print("</table>");
-			
-			
-			*/
 		}
 		else{
 			out.print("Please check your username and Password");

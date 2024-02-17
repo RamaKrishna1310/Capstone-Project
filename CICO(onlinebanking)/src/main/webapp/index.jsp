@@ -99,13 +99,7 @@ try {
 			}
 			out.print("</table>");
 			
-			/*out.print("<table align='right'width='40%'>");
-			out.print("<tr><td><a href='Compose.html'>COMPOSE</a></td></tr>");
-			out.print("<tr><td><a href='InboxServlet'>INBOX</a></td></tr>");
-			out.print("<tr><td><a href='LogoutServlet'>LOGOUT</a></td></tr>");
-			//out.print("<tr><td><a href='DeleteServlet'>Delete</a></td></tr>");
 			
-			out.print("</table>");*/
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}

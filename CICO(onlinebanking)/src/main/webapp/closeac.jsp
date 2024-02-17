@@ -62,15 +62,13 @@ var sds = document.getElementById("dum");
         String username=request.getParameter("username");
 		String password=request.getParameter("password");
 	    boolean status=verifyLogin1.checkLogin(accountno,username,password);
-		//if(status==true){
-		//	out.print("Welcome    " + username);
+		
 		try {
 		if(status==true){
 			out.print("Welcome    " + username);
 		
 			Connection con=GetCon.getCon();
 			PreparedStatement ps=con.prepareStatement("delete from NEWACCOUNT where accountno='"+accountno+"'");
-            //ps.setInt(1,accountno);
 			ps.executeUpdate();
 			
 			out.print("&nbsp;&nbsp;&nbsp;your account no '"+accountno+"' has closed.");
